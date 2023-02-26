@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="COM_BLOGSTERS_VIEW_DEFAULT_TITLE" option="COM_BLOGSTERS_VIEW_DEFAULT_OPTION">
+		<help
+			key="JHELP_MENUS_MENU_ITEM_MYWALKS"
+		/>
+		<message>
+			<![CDATA[COM_BLOGSTERS_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<fieldset name="request" label="COM_MENUS_BASIC_FIELDSET_LABEL">
+
+		</fieldset>
+
+		<!-- Add fields to the parameters object for the layout. -->
+
+		<!-- Scroll. -->
+		<fieldset name="basic">
+			<field
+				name="list_limit"
+				type="list"
+				default="12"
+				label="COM_BLOGSTERS_FIELD_DEFAULT_LIST_LIMIT_LABEL"
+				description="COM_BLOGSTERS_FIELD_DEFAULT_LIST_LIMIT_DESC"
+				filter="integer">
+				<option
+					value="6">6</option>
+				<option
+					value="9">9</option>
+				<option
+					value="12">12</option>
+				<option
+					value="15">15</option>
+				<option
+					value="18">18</option>
+				<option
+					value="21">21</option>
+				<option
+					value="24">24</option>
+				<option
+					value="27">27</option>
+			</field>
+		</fieldset>
+
+		<!-- Advanced options. -->
+		<fieldset name="advanced">
+
+		</fieldset>
+	</fields>
+</metadata>

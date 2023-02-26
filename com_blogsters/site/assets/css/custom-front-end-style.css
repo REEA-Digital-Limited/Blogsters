@@ -1,0 +1,598 @@
+/* Custom Style */
+.tm-page > .tm-top {
+    height: 0px !important;
+    max-height: 0px !important;
+    min-height: 0px !important;
+}
+.tm-page > #tm-main{
+    padding-top: 2px !important;
+}
+.BlogMainWrapper{
+    clear: both;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 35px 0px;
+}
+.BlogMainWrapper .topFeatureBox{
+    clear: both;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox{
+    width: 75%;
+    margin: auto;
+    margin-top: -100px;
+    background: #fff;
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    border-top: 5px solid rgba(183, 186, 86, 0.90);
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .title h1 {
+    font-size: 35px;
+    line-height: 42px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .read-more .more-link{
+    border: 1px solid #b7ba56;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .read-more .more-link:hover{
+    background: #b7ba56;
+    color: #fff;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .read-more .more-link .icon-chevron-right{
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    margin-right: 6px;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 15px;
+    background: #f8f8f8;
+    border: 1px solid rgba(183, 186, 86, 0.50);
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul li {
+    transition: 0.5s all ease-in !important;
+    position: relative;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul li {
+    color: #b7ba56;
+    background: transparent;
+    display: inline;
+    font-weight: bold;
+    text-transform: none;
+    padding: 8px 15px;
+    border-bottom: 3px solid transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 55px;
+    font-size: 16px;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul li:hover {
+    color: #b7ba56;
+    border-bottom: 3px solid #b7ba56 !important;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul li:hover:before {
+    width: 100%;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul li:before {
+    position: absolute;
+    bottom: -2px;
+    background: #b7ba56;
+    height: 2px;
+    display: block;
+    content: "";
+    width: 0;
+    transition: 0.5s all ease-in;
+    left: 0;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 400px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    display: none;
+    margin: 8px;
+    border: 1px solid #ccc;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper {
+    position: relative !important;
+    cursor: pointer;
+    padding: 8px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .portfolio-bg {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    transition: 1s;
+    transform: scale(1);
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.BlogMainWrapper .mainBlogBoxItems .BlogTab ul .active {
+    color: #b7ba56;
+    border-bottom: 3px solid #b7ba56 !important;
+}
+.ScrollTo{
+    display: none;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .image{
+    overflow: hidden;
+    max-height: 215px;
+    text-align: center;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .image img{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    transform: scale(1);
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog:hover .blog-wrapper .image img {
+    transform: scale(1.2);
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox{
+    background: #fff;
+    position: absolute;
+    width: 55%;
+    margin-top: -25px;
+    z-index: 999;
+    margin-right: 0px;
+    right: 0px;
+    padding: 2px 15px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox{
+    clear: both;
+    width: 100%;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox .left{
+    float: left;
+    width: 50%;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox .right {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox .icons{
+    font-size: 13px;
+    color: #0a268a;
+    font-weight: 400;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox .percentBox,
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .metabox .mBox .minutesBox{
+    font-size: 13px;
+    color: #0a268a;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .titlebox .icon-bookmark{
+    color: #b02473;
+    font-size: 18px;
+    margin-right: 6px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .cat-tag-box .mBox{
+    display: inline-block;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .titlebox h3{
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .cat-tag-box .mBox .list{
+    display: inline-block;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .cat-tag-box .mBox .list.cat{
+    color: #0a268a;
+    font-weight: 800 !important;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .cat-tag-box .mBox .list.tag{
+    color: #0a268a;
+    font-weight: normal;
+    font-weight: 400 !important;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper .hover-effect-right {
+    border: 1px solid #b7ba56;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    line-height: 1.1;
+    transition: all 0.3s;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper .hover-effect-right .icon-chevron-right{
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    margin-right: 6px;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadMoreBoxMainWrapper .spinLoading.multi {
+    border-bottom-color: #9a9d40;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadMoreBoxMainWrapper .spinLoading {
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 0.5rem solid #2e486b;
+    border-top-color: #9a9d40;
+    -webkit-animation: 1.5s spin infinite linear;
+    animation: 1.5s spin infinite linear;
+    position: relative;
+}
+@-webkit-keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Detail Page CSS Start Here */
+.BlogMainWrapper .topFeatureBox .primaryImageBox.detailsPage{
+    overflow: hidden;
+    max-height: 540px;
+}
+.BlogMainWrapper .topFeatureBox .primaryImageBox.detailsPage .f-image{
+    width: 100%;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage {
+    margin-top: -65px !important;
+    padding: 15px 15px 15px 15px !important;
+    border-bottom: 0px solid transparent !important;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage {
+    width: 75% !important;
+    margin: auto !important;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage h2,
+.BlogMainWrapper .mainBlogBoxItems.detailsPage h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .date,
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .print-page,
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .read-time,
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .bookmark,
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .category,
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .tag{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .firstMeta{
+    margin-bottom: 5px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .icons{
+    margin-right: 8px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .secondMeta .bookmark{
+    color: #b02473;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .secondMeta .bookmark .icon-bookmark{
+    font-size: 12px;
+    color: #b02473;
+    margin-right: 5px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .secondMeta a{
+    color: #0a268a;
+    font-weight: 800 !important;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 1.1;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .print-page{
+    cursor: pointer;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox{
+    clear: both;
+    width: 100%;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .authHeading{
+    color: #0a268a;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 350px;
+    background: #f0f0f0;
+    padding: 10px;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .box .left{
+    margin: auto 8px;
+    width: 20%;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .box .right {
+    margin: auto 8px;
+    width: 80%;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .box .left img{
+    width: 100px;
+    border-radius: 50%;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .authorMeta{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .authorMeta .box .name{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .authorMeta .box .designation {
+    font-size: 14px;
+    line-height: 20px;
+}
+.footerLikeSocialWrapper{
+    background: #0a268a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footerLikeSocialWrapper .text{
+    color: #fff;
+    transition: all 0.3s;
+}
+.footerLikeSocialWrapper .vote .icon .fav .icons{
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.footerLikeSocialWrapper .uk-container .box{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerLikeSocialWrapper .uk-container .box .vote{
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon{
+    display: flex;
+}
+.footerLikeSocialWrapper .uk-container .box .social{
+    width: 50%;
+    padding-left: 50px;
+    display: block;
+}
+.footerLikeSocialWrapper .uk-container .box .social .list{
+    display: flex;
+    gap: 10px;
+}
+.footerLikeSocialWrapper .uk-container .box .social .list img{
+    margin-right: 5px;
+    width: 35px;
+}
+.footerLikeSocialWrapper .uk-container .box .social .text{
+    padding-left: 40px;
+    display: flex;
+    padding-top: 12px;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon .up{
+    padding-right: 15px;
+    cursor: pointer;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon .down{
+    padding-left: 15px;
+    cursor: pointer;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon .up .text{
+    text-align: left;
+    padding-top: 10px;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon .down .text {
+    text-align: right;
+    padding-top: 10px;
+}
+.footerLikeSocialWrapper .uk-container .box .vote .icon .up:hover .up .icons,
+.footerLikeSocialWrapper .uk-container .box .vote .icon .up:hover .text,
+.footerLikeSocialWrapper .uk-container .box .vote .icon .down:hover .down .icons,
+.footerLikeSocialWrapper .uk-container .box .vote .icon .down:hover .text{
+    color: #b7ba56;
+}
+.footerLikeSocialWrapper .uk-container .box .social .list a img{
+    transition: all 0.3s;
+}
+.footerLikeSocialWrapper .uk-container .box .social .list a:hover img{
+    background: #b7ba56;
+    border-radius: 50%;
+    padding: 2px;
+}
+.ui-tooltip {
+    padding: 10px 10px !important;
+}
+.ui-tooltip .ui-tooltip-content {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox.detailsPage .blogMetaDataBox .secondMeta .tag a{
+    font-weight: 400 !important;
+    padding: 0px;
+    margin: 0px;
+}
+.listBlogByCategory .CatHeading .heading,
+.listBlogByTags .CatHeading .heading{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+.listBlogByCategory .CatHeading .heading .icon-arrow-right-3,
+.listBlogByTags .CatHeading .heading .icon-arrow-right-3{
+    margin-right: 5px;
+}
+.listBlogByCategory .CatHeading,
+.listBlogByTags .CatHeading{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.BlogMainWrapper .topFeatureBox .primaryImageBox .f-image{
+    width: 100%;
+    border: 1px solid rgba(183, 186, 86, 0.95);
+    padding: 3px;
+}
+.BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .title a{
+    text-decoration: none;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    line-height: 1.1;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper .hover-effect-right:hover{
+    background: #b7ba56;
+    color: #fff;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper #blogMainWrapper .titlebox a{
+    text-decoration: none;
+    display: block;
+    line-height: 1.1;
+}
+.BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper #blogMainWrapper .cat-tag-box .mBox .list {
+    text-decoration: none;
+    line-height: 1.1;
+}
+.ui-tooltip{
+    width: 350px !important;
+    background: #ff0000 !important;
+    border: 2px solid #fff !important;
+}
+.ui-tooltip .ui-tooltip-content{
+    background: #ff0000 !important;
+}
+/* Detail Page CSS End Here */
+
+@media only screen and (min-width: 640px) and (max-width: 960px) {
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .title h1 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .read-more .more-link {
+        padding: 10px 25px 8px 25px !important;
+        font-size: 14px !important;
+        margin: 0px !important;
+        line-height: 1.1 !important;
+        vertical-align: middle !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper .hover-effect-right {
+        padding: 8px 25px 8px 25px !important;
+        font-size: 14px !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .titlebox h3 {
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox {
+        margin-top: -50px !important;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .BlogMainWrapper .mainBlogBoxItems .BlogTab ul li {
+        padding: 5px 5px !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .title h1 {
+        font-size: 20px !important;
+        line-height: 25px !important;
+        font-weight: 600 !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox .read-more .more-link {
+        padding: 10px 25px 8px 25px !important;
+        font-size: 14px !important;
+        margin: 0px !important;
+        line-height: 1.1 !important;
+        vertical-align: middle !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .blog-grid .blog .blog-wrapper .titlebox h3 {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems .blogMainGridWrapper .loadmoreWrapper .hover-effect-right {
+        padding: 10px 25px 8px 25px !important;
+        font-size: 14px !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox {
+        margin-top: -35px !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems.detailsPage .QuotationBox .box {
+        width: 100% !important;
+    }
+    .footerLikeSocialWrapper .uk-container .box .social {
+        padding-left: 25px !important;
+    }
+    .footerLikeSocialWrapper .uk-container .box .vote {
+        padding-right: 25px !important;
+    }
+    .BlogMainWrapper .mainBlogBoxItems.detailsPage {
+        width: 85% !important;
+    }
+    .BlogMainWrapper .topFeatureBox .primaryBlogTitleBox {
+        width: 85% !important;
+    }
+}

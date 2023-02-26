@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+	<name>BLOGSTERS</name>
+	<creationDate>January 2023</creationDate>
+	<author>REEA Digital Limited</author>
+	<authorEmail>office@reeadigital.com</authorEmail>
+	<authorUrl>https://www.reeadigital.com/</authorUrl>
+	<copyright>Copyright (C) 2023 REEA Digital Limited, All rights reserved.</copyright>
+	<license>GNU/GPL Version 3 or later - https://www.gnu.org/licenses/gpl-3.0.en.html</license>
+	<version>1.0.0</version>
+	<description>COM_BLOGSTERS_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Component\Blogsters</namespace>
+
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+
+	<files folder="site">
+		<folder>assets</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages folder="site">
+		<language tag="da-DK">language/da-DK/com_blogsters.ini</language>
+		<language tag="de-DE">language/de-DE/com_blogsters.ini</language>
+		<language tag="el-GR">language/el-GR/com_blogsters.ini</language>
+		<language tag="en-GB">language/en-GB/com_blogsters.ini</language>
+		<language tag="en-US">language/en-US/com_blogsters.ini</language>
+		<language tag="es-ES">language/es-ES/com_blogsters.ini</language>
+		<language tag="fi-FI">language/fi-FI/com_blogsters.ini</language>
+		<language tag="fr-CH">language/fr-CH/com_blogsters.ini</language>
+		<language tag="fr-FR">language/fr-FR/com_blogsters.ini</language>
+		<language tag="it-IT">language/it-IT/com_blogsters.ini</language>
+		<language tag="nl-NL">language/nl-NL/com_blogsters.ini</language>
+		<language tag="no-NO">language/no-NO/com_blogsters.ini</language>
+		<language tag="pl-PL">language/pl-PL/com_blogsters.ini</language>
+		<language tag="pt-BR">language/pt-BR/com_blogsters.ini</language>
+		<language tag="ro-RO">language/ro-RO/com_blogsters.ini</language>
+		<language tag="ru-RU">language/ru-RU/com_blogsters.ini</language>
+	</languages>
+
+	<administration>
+		<files folder="admin">
+			<file>access.xml</file>
+			<file>config.xml</file>
+			<folder>assets</folder>
+			<folder>forms</folder>
+			<folder>services</folder>
+			<folder>sql</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="da-DK">language/da-DK/com_blogsters.ini</language>
+			<language tag="da-DK">language/da-DK/com_blogsters.sys.ini</language>
+			<language tag="de-DE">language/de-DE/com_blogsters.ini</language>
+			<language tag="de-DE">language/de-DE/com_blogsters.sys.ini</language>
+			<language tag="el-GR">language/el-GR/com_blogsters.ini</language>
+			<language tag="el-GR">language/el-GR/com_blogsters.sys.ini</language>
+			<language tag="en-GB">language/en-GB/com_blogsters.ini</language>
+			<language tag="en-GB">language/en-GB/com_blogsters.sys.ini</language>
+			<language tag="en-US">language/en-US/com_blogsters.ini</language>
+			<language tag="en-US">language/en-US/com_blogsters.sys.ini</language>
+			<language tag="es-ES">language/es-ES/com_blogsters.ini</language>
+			<language tag="es-ES">language/es-ES/com_blogsters.sys.ini</language>
+			<language tag="fi-FI">language/fi-FI/com_blogsters.ini</language>
+			<language tag="fi-FI">language/fi-FI/com_blogsters.sys.ini</language>
+			<language tag="fr-CH">language/fr-CH/com_blogsters.ini</language>
+			<language tag="fr-CH">language/fr-CH/com_blogsters.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR/com_blogsters.ini</language>
+			<language tag="fr-FR">language/fr-FR/com_blogsters.sys.ini</language>
+			<language tag="it-IT">language/it-IT/com_blogsters.ini</language>
+			<language tag="it-IT">language/it-IT/com_blogsters.sys.ini</language>
+			<language tag="nl-NL">language/nl-NL/com_blogsters.ini</language>
+			<language tag="nl-NL">language/nl-NL/com_blogsters.sys.ini</language>
+			<language tag="no-NO">language/no-NO/com_blogsters.ini</language>
+			<language tag="no-NO">language/no-NO/com_blogsters.sys.ini</language>
+			<language tag="pl-PL">language/pl-PL/com_blogsters.ini</language>
+			<language tag="pl-PL">language/pl-PL/com_blogsters.sys.ini</language>
+			<language tag="pt-BR">language/pt-BR/com_blogsters.ini</language>
+			<language tag="pt-BR">language/pt-BR/com_blogsters.sys.ini</language>
+			<language tag="ro-RO">language/ro-RO/com_blogsters.ini</language>
+			<language tag="ro-RO">language/ro-RO/com_blogsters.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/com_blogsters.ini</language>
+			<language tag="ru-RU">language/ru-RU/com_blogsters.sys.ini</language>
+		</languages>
+
+		<menu img="class:default" link="option=com_blogsters">BLOGSTERS</menu>
+		<submenu>
+			<menu link="option=com_blogsters" img="class:blog">COM_BLOGSTERS_BLOG</menu>
+			<menu link="option=com_blogsters&amp;view=blogster_categories" img="class:categories">COM_BLOGSTERS_CATEGORIES</menu>
+			<menu link="option=com_blogsters&amp;view=blogster_tags" img="class:tags">COM_BLOGSTERS_TAGS</menu>
+			<menu link="option=com_blogsters&amp;view=blogster_authors" img="class:authors">COM_BLOGSTERS_AUTHORS</menu>
+		</submenu>
+
+	</administration>
+</extension>

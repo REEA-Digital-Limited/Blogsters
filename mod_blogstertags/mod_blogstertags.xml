@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>BLOGSTERTAGS</name>
+	<author>REEA Digital Limited</author>
+	<creationDate>January 2023</creationDate>
+	<copyright>Copyright (C) 2023 REEA Digital Limited, All rights reserved.</copyright>
+	<license>GNU/GPL Version 3 or later - https://www.gnu.org/licenses/gpl-3.0.en.html</license>
+	<authorEmail>office@reeadigital.com</authorEmail>
+	<authorUrl>https://www.reeadigital.com/</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_BLOGSTERTAGS_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Module\Blogstertags</namespace>
+	<files>
+		<filename module="mod_blogstertags">mod_blogstertags.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="da-DK">language/da-DK/mod_blogstertags.ini</language>
+		<language tag="da-DK">language/da-DK/mod_blogstertags.sys.ini</language>
+		<language tag="de-DE">language/de-DE/mod_blogstertags.ini</language>
+		<language tag="de-DE">language/de-DE/mod_blogstertags.sys.ini</language>
+		<language tag="el-GR">language/el-GR/mod_blogstertags.ini</language>
+		<language tag="el-GR">language/el-GR/mod_blogstertags.sys.ini</language>
+		<language tag="en-GB">language/en-GB/mod_blogstertags.ini</language>
+		<language tag="en-GB">language/en-GB/mod_blogstertags.sys.ini</language>
+		<language tag="en-US">language/en-US/mod_blogstertags.ini</language>
+		<language tag="en-US">language/en-US/mod_blogstertags.sys.ini</language>
+		<language tag="es-ES">language/es-ES/mod_blogstertags.ini</language>
+		<language tag="es-ES">language/es-ES/mod_blogstertags.sys.ini</language>
+		<language tag="fi-FI">language/fi-FI/mod_blogstertags.ini</language>
+		<language tag="fi-FI">language/fi-FI/mod_blogstertags.sys.ini</language>
+		<language tag="fr-CH">language/fr-CH/mod_blogstertags.ini</language>
+		<language tag="fr-CH">language/fr-CH/mod_blogstertags.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/mod_blogstertags.ini</language>
+		<language tag="fr-FR">language/fr-FR/mod_blogstertags.sys.ini</language>
+		<language tag="it-IT">language/it-IT/mod_blogstertags.ini</language>
+		<language tag="it-IT">language/it-IT/mod_blogstertags.sys.ini</language>
+		<language tag="nl-NL">language/nl-NL/mod_blogstertags.ini</language>
+		<language tag="nl-NL">language/nl-NL/mod_blogstertags.sys.ini</language>
+		<language tag="no-NO">language/no-NO/mod_blogstertags.ini</language>
+		<language tag="no-NO">language/no-NO/mod_blogstertags.sys.ini</language>
+		<language tag="pl-PL">language/pl-PL/mod_blogstertags.ini</language>
+		<language tag="pl-PL">language/pl-PL/mod_blogstertags.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR/mod_blogstertags.ini</language>
+		<language tag="pt-BR">language/pt-BR/mod_blogstertags.sys.ini</language>
+		<language tag="ro-RO">language/ro-RO/mod_blogstertags.ini</language>
+		<language tag="ro-RO">language/ro-RO/mod_blogstertags.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_blogstertags.ini</language>
+		<language tag="ru-RU">language/ru-RU/mod_blogstertags.sys.ini</language>
+	</languages>
+	<help key="Site_Modules:_Blogstertags_Include" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="max_tags_number"
+					type="list"
+					label="MOD_BLOGSTERTAGS_MAX_TAGS_NUMBER"
+					default="30"
+					filter="integer"
+					validate="options"
+					>
+					<option value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+					<option value="50">50</option>
+					<option value="60">60</option>
+					<option value="70">70</option>
+					<option value="80">80</option>
+					<option value="90">90</option>
+					<option value="100">100</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					class="form-select"
+					validate="moduleLayout"
+				/>
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					rows="3"
+					validate="CssIdentifier"
+				/>
+				<field
+					name="cache"
+					type="list"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					default="1"
+					filter="integer"
+					validate="options"
+					>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="number"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					default="900"
+					filter="integer"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

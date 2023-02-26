@@ -1,0 +1,20 @@
+#blogstersList ul{
+  padding: 0px;
+  margin: 0px;
+}
+#blogstersList ul li {
+  list-style: square;
+  list-style-position: inside;
+}
+#blogstersList .tagsBox ul li{
+  border: 1px solid #ddd;
+  padding: 2px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px -5px #000;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3d618f;
+}
