@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="upgrade">
+	<name>Blogsters</name>
+	<packagename>blogsters</packagename>
+	<packager>REEA Digital Limited</packager>
+	<creationDate>January 2023</creationDate>
+	<copyright>Copyright (C) 2023 REEA Digital Limited, All rights reserved.</copyright>
+	<license>GNU/GPL Version 3 or later - https://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>office@reeadigital.com</authorEmail>
+	<authorUrl>www.reeadigital.com</authorUrl>
+	<version>1.0.0</version>
+	<description>With features like a standard blog, author profiles, categories, up-and-down voting, and more, Blogsters enables you to create blogging within Joomla. Every blog will have the opportunity to choose which featured and tag posts will be displayed at the front end. This also includes the most recent blog article and a lovely tag cloud.</description>
+
+	<files folder="packages">
+		<file type="component" id="blogsters" client="administrator">com_blogsters.zip</file>
+		<file type="module" id="mod_blogsters" client="site">mod_blogsters.zip</file>
+		<file type="module" id="mod_blogstertags" client="site">mod_blogstertags.zip</file>
+	</files>
+
+	<updateservers>
+		<server type="extension" name="Portfolio Cases Updates">https://extensions.reeadigital.com/blogsters/blogsters.xml</server>
+	</updateservers>
+
+</extension>
