@@ -19,7 +19,7 @@
 	</files>
 
 	<updateservers>
-		<server type="extension" name="Portfolio Cases Updates">https://extensions.reeadigital.com/blogsters/blogsters.xml</server>
+		<server type="extension" name="Blogsters Updates">https://extensions.reeadigital.com/blogsters/blogsters.xml</server>
 	</updateservers>
 
 </extension>
