@@ -2,7 +2,7 @@
 <extension type="package" version="1.6" method="upgrade">
 	<name>Blogsters</name>
 	<packagename>blogsters</packagename>
-	<packager>REEA Digital Limited</packager>
+	<author>REEA Digital Limited</author>
 	<creationDate>January 2023</creationDate>
 	<copyright>Copyright (C) 2023 REEA Digital Limited, All rights reserved.</copyright>
 	<license>GNU/GPL Version 3 or later - https://www.gnu.org/licenses/gpl-3.0.html</license>
